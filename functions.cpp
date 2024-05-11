@@ -1,6 +1,5 @@
 #include"header.h"
 
-
 Array* create_array(int size)
 {
 	Array* new_array = (Array*)malloc(sizeof(Array));
@@ -11,7 +10,6 @@ Array* create_array(int size)
 
 	return new_array;
 }
-
 
 void free_array(Array* old_array)
 {
