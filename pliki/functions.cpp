@@ -1,9 +1,9 @@
 #include "header.h"
 
-void set_file_name(char* file_name, size_t rozmiar) {
+void set_file_name(char* file_name, size_t size) {
     printf("Podaj nazwe pliku (bez rozszerzenia): ");
-    scanf_s("%s", file_name, rozmiar);
-    strcat_s(file_name, rozmiar, ".txt");
+    scanf_s("%s", file_name, size);
+    strcat_s(file_name, size, ".txt");
 }
 
 void info_fill(struct person* per) {

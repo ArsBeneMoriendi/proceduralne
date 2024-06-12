@@ -11,6 +11,6 @@ struct person {
     //poniewaz w przypadku mlodszych osob ucinane jest '0' na poczatku, lepiej zrobic by bylo np. char pesel[9]
 };
 
-void set_file_name(char* file_name, size_t rozmiar);
+void set_file_name(char* file_name, size_t size);
 void info_fill(struct person* per);
 void save_in_file(FILE* file, struct person* per);

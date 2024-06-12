@@ -15,7 +15,7 @@ int main() {
         info_fill(&per);
         save_in_file(wp, &per);
         getchar();
-        printf("@ - koniec\n# - dalej (lub dowolny inny znak)\n");
+        printf("\nChcesz kontunuowac? Wybierz opcje:\n# - tak (lub dowolny inny znak)\n@ - nie, wyswietl plik\n");
         scanf_s("%c", &decyzja);
 
     } while (decyzja != '@');
