@@ -2,19 +2,21 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define ARRAY_SIZE 50
+
 struct Address
 {
-    char city[50];
-    char postal_code[10];
-    char street[50];
+    char city[ARRAY_SIZE];
+    char postal_code[ARRAY_SIZE];
+    char street[ARRAY_SIZE];
     int house_number;
     int suite_number;
 };
 
 struct Person
 {
-    char name[50];
-    char surname[50];
+    char name[ARRAY_SIZE];
+    char surname[ARRAY_SIZE];
     int age;
     int pesel;
     Address address;

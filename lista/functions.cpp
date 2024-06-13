@@ -1,4 +1,5 @@
 #include "header.h"
+
 void insert(list_element_ptr* list_el, Person person)
 {
     list_element_ptr new_element = (list_element_ptr)malloc(sizeof(struct list_element));
