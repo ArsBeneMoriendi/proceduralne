@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-struct person {
+struct person 
+{
     char name[50];
     char surname[50];
     int age;

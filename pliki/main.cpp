@@ -1,6 +1,7 @@
 #include "header.h"
 
-int main() {
+int main() 
+{
     FILE* wp;
     char file_name[50];
     struct person per;
@@ -11,7 +12,8 @@ int main() {
 
     fopen_s(&wp, file_name, "a+");
 
-    do {
+    do 
+    {
         info_fill(&per);
         save_in_file(wp, &per);
         getchar();

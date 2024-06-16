@@ -12,7 +12,8 @@ int main()
         printf("\nWybierz opcje: \n1 - wstaw osobe na liste \n2 - usun osobe z listy \n3 - pokaz liste \n4 - koniec\n");
         scanf_s("%d", &wybor);
 
-        switch (wybor) {
+        switch (wybor) 
+        {
         case 1:
             person = create_person();
             insert(&starting_el, person);
