@@ -1,4 +1,4 @@
-#include"header.h"
+#include "header.h"
 
 Array* create_array(int size)
 {
